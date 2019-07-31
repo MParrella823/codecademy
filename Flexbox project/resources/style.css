@@ -62,10 +62,29 @@ nav  {
 	padding: 10px;
 }
 
+#locations {
+	background-image: url("imgs/img-locations-background.jpg");
+	height: 500px;
+	width: 1200px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
 
+#flex-box-contents{
+	display: flex;
+	justify-content: space-around;
+}
 
-
-
+.location-box {
+	background-color: black;
+	opacity: 1;
+	text-align: center;
+	width: 300px;
+	margin: 15px 40px 0px 40px;
+}
 
 body {
 	background-color: black;
