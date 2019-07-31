@@ -5,6 +5,7 @@ header {
 	position: fixed;
 	border-bottom: 1px solid seashell;
 	z-index: 5;
+	top: 0;
 }
 
 header a {
@@ -12,10 +13,11 @@ header a {
 	padding: 20px 20px 0px 0px;
 }
 
-.logo img {
+#logo {
 	padding-left: 10px;
 	height: 50px;
 	margin: auto 0px;
+	padding-top: 5px;
 	color: seashell;
 	float: left;
 }
@@ -31,7 +33,6 @@ nav  {
 	width: 1200px;
 	height: 700px;
 	display: inline-flex;
-	margin-top: 69px;
 	background-repeat: no-repeat;
 	background-image: url("imgs/img-mission-background.jpg");	
 	align-items: center;
@@ -42,18 +43,24 @@ nav  {
 	width: 1200px;
 }
 
+#featured-tea {
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+	width: 1000px;
+	justify-content: space-around;
+}
+
 #tea-of-the-month {
 	display: flex;
 	flex-wrap: wrap;
 	width: 1000px;
 	justify-content: center;
-	margin: 0 auto;
 }
 
 .tea-text {
+	margin-top: 10px;
 	text-align: center;
-	margin: 0px auto;
-	padding: 0px;
 }
 
 .tea-images img {
@@ -62,15 +69,29 @@ nav  {
 	padding: 10px;
 }
 
-#locations {
+main {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding-top: 60px;
+	align-items: center;
+}
+
+.bottom {
 	background-image: url("imgs/img-locations-background.jpg");
 	height: 500px;
 	width: 1200px;
 	margin-top: 20px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
 	align-items: center;
+	justify-content: center;
+}
+
+.bottom h2 {
+	justify-content: center;
+	margin: 0;
+	padding: 0;
 }
 
 #flex-box-contents{
@@ -78,13 +99,16 @@ nav  {
 	justify-content: space-around;
 }
 
+
 .location-box {
 	background-color: black;
 	opacity: 1;
-	text-align: center;
 	width: 300px;
-	margin: 15px 40px 0px 40px;
+	margin: 15px 20px;	
+	padding: 0;
+	align-content: center;
 }
+
 
 body {
 	background-color: black;
@@ -94,3 +118,13 @@ body {
 	text-align: center;
 	font-size: 22px;
 }
+
+footer {
+	font-family: Helvetica;
+	color: seashell;
+}
+
+#copyright {
+	float: left;
+}
+
