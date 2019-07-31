@@ -1,0 +1,77 @@
+header {
+	width: 100%;
+	height: 69px;
+	background-color: black;
+	position: fixed;
+	border-bottom: 1px solid seashell;
+	z-index: 5;
+}
+
+header a {
+	color: seashell;
+	padding: 20px 20px 0px 0px;
+}
+
+.logo img {
+	padding-left: 10px;
+	height: 50px;
+	margin: auto 0px;
+	color: seashell;
+	float: left;
+}
+
+nav  {
+	display: inline-block;
+	color: seashell;
+	padding-top: 15px;
+	float: right;
+}
+
+#mission {
+	width: 1200px;
+	height: 700px;
+	display: inline-flex;
+	margin-top: 69px;
+	background-repeat: no-repeat;
+	background-image: url("imgs/img-mission-background.jpg");	
+	align-items: center;
+}
+
+.missiontext {
+	background-color: black;	
+	width: 1200px;
+}
+
+#tea-of-the-month {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1000px;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.tea-text {
+	text-align: center;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.tea-images img {
+	height: 200px;
+	width: 300px;
+	padding: 10px;
+}
+
+
+
+
+
+
+body {
+	background-color: black;
+	font-family: Helvetica;
+	color: seashell;
+	opacity: 0.9;
+	text-align: center;
+	font-size: 22px;
+}
